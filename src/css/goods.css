@@ -1,0 +1,229 @@
+#pageHeader {
+  margin-bottom: 40px;
+}
+
+.paGe {
+  margin-top: 20px;
+  background: #fff;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.paGe input:hover, .paGe input:focus, .paGe select:hover, .paGe select:focus, .paGe textarea:hover, .paGe textarea:focus {
+  border-color: #f9a0b4;
+  box-shadow: 0 0 5px #fbb4b0;
+}
+
+.paGe .product-side {
+  margin-top: 20px;
+  width: 550px;
+}
+
+.paGe .product-side .sidecount {
+  width: 68px;
+  height: 68px;
+  padding: 40px 40px 0 0;
+  background-position: 0 -489px;
+  color: #fff;
+  margin: 10px 0 0 35px;
+  display: block;
+  text-align: right;
+}
+
+.paGe .product-side #exzoom {
+  width: 500px;
+  height: 500px;
+}
+
+.paGe .product-main {
+  margin-top: 20px;
+  width: 570px;
+}
+
+.paGe .product-main .product-titles {
+  padding-bottom: 30px;
+  line-height: 1.2;
+  text-align: left;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+.paGe .product-main .product-titles .iconfont {
+  color: #c29b60;
+  font-size: 25px;
+  vertical-align: super;
+}
+
+.paGe .product-main .icon66 {
+  font-size: 15px;
+  color: #fff;
+  background: #EC3E7C;
+  margin-right: 5px;
+  float: left;
+  display: inline-block;
+  border-radius: 2px;
+  height: 22px;
+  line-height: 22px;
+  padding: 0 5px;
+  position: relative;
+  top: 2px;
+}
+
+.paGe .product-main .product-titles2 {
+  color: #505a64;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.paGe .product-main .product-information {
+  line-height: 2;
+  float: left;
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+.paGe .product-main .product-information .product-buy {
+  padding: 10px 0;
+  margin-top: 10px;
+}
+
+.paGe .product-main .product-information .product-buy .product-buy-quantity {
+  margin-bottom: 20px;
+}
+
+.paGe .product-main .product-information .product-buy .product-buy-quantity .p-quantity {
+  width: 74px;
+}
+
+.paGe .product-main .product-information .product-buy .product-buy-quantity .p-quantity a {
+  display: inline-block;
+  width: 20px;
+  height: 21px;
+  overflow: hidden;
+  vertical-align: middle;
+  border: 1px solid #f2f2f2;
+  text-align: center;
+  font: 14px/22px simsun,serif;
+  background: #f2f2f1;
+  font-weight: bold;
+}
+
+.paGe .product-main .product-information .product-buy .product-buy-quantity .p-quantity a:hover {
+  background-color: #ddd;
+  color: white;
+  border-color: #ddd;
+}
+
+.paGe .product-main .product-information .product-buy .product-buy-quantity .p-quantity input {
+  width: 30px;
+  height: 21px;
+  line-height: 21px;
+  padding: 0;
+  margin: 0;
+  vertical-align: middle;
+  border-width: 1px 0;
+  border-style: solid;
+  border-color: #f2f2f2;
+  text-align: center;
+}
+
+.paGe .product-main .product-information .product-buy .product-concerns {
+  position: relative;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+}
+
+.paGe .product-main .product-information .product-buy .product-concerns li {
+  clear: both;
+  padding: 5px 0;
+}
+
+.paGe .product-main .product-information .product-buy .product-concerns .detail {
+  height: 24px;
+  color: #888888;
+  padding-left: 5px;
+}
+
+.paGe .product-main .product-information .product-buy .product-concerns .detail .price {
+  color: #ec3e7d;
+}
+
+.paGe .product-main .product-information .product-buy .product-concerns .detail .price ins {
+  font-size: 35px;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.paGe .product-main .product-information .product-buy .product-concerns .detail .old-price {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.paGe .product-main .product-information .product-buy .product-buy-action {
+  word-break: break-all;
+  word-wrap: break-word;
+}
+
+.paGe .product-main .product-information .product-buy .product-buy-action .btn-major {
+  margin-right: 15px;
+  width: 220px;
+  height: 50px;
+  background: #ec3e7d;
+  line-height: 50px;
+  overflow: hidden;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  font-size: 133.33333%;
+}
+
+.paGe .product-main .share-mini a {
+  line-height: 16px;
+  padding: 5px 2px;
+  display: block;
+  white-space: nowrap;
+}
+
+.paGe .product-main .share-mini .icon {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: -3px;
+  background-image: url("../images/share.png");
+  margin-right: 5px;
+}
+
+.paGe .product-main .share-mini .douban .icon {
+  background-position: 0 -100px;
+}
+
+.paGe .product-main .share-mini .kaixin001 .icon {
+  background-position: 0 -80px;
+}
+
+.paGe .product-main .share-mini .qzone .icon {
+  background-position: 0 -40px;
+}
+
+.paGe .product-main .share-mini .renren .icon {
+  background-position: 0 -60px;
+}
+
+.paGe .product-main .share-mini .sina .icon {
+  background-position: 0 0;
+}
+
+.paGe .product-main .share-mini .tencent .icon {
+  background-position: 0 -20px;
+}
+
+.paGe .product-main .share-mini a:hover .icon {
+  opacity: 0.8;
+}
+
+.footer-rs {
+  background: #fff;
+  margin-top: 40px;
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>购物车</title>
+        <link rel="stylesheet" type="text/css" href="../css/styles.min.css" />
+        <link rel="stylesheet" type="text/css" href="../css/car.css" />
+        <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="../js/car.js"></script>
+    </head>
+    <body class="cart-page">
+        <div id="pageHeader"></div>
+        <div class="header-main">
+            <div class="page">
+                <div class="topcarticon fr">
+                    <div>
+                    <img src="../images/gouwuche1.png" height="50" width="50">&nbsp; &nbsp;
+                    <img src="../images/gouwuche2.png" height="50" width="50">&nbsp;&nbsp;&nbsp;
+                    <img src="../images/gouwwuche3.png" height="50" width="50">
+                    </div>
+                </div>
+                <div class="topcart-step01 topcart-step"></div>
+                <div class="sotelogo"><a href="javascript:void(0);"><img alt="欢迎光临莎莎网" src="../images/logo.png" border="0"></a></div>
+            </div>
+        </div>
+        <div class="page">
+            <div id="main" class="ui-cart-body">
+                <div class="cart-container ui-cart-cont">
+                    <div class="ui-taxfree-tip">
+                      保税仓直送商品结帐提示&emsp;1.&ensp;保税仓直送商品不可与香港直送商品同时结帐;&ensp;2.&ensp;保税仓直送商品每张订单总金额不可超过&ensp;¥2000。
+                    </div>
+                    <div class="carttitle bticon">您的购物车中的商品</div>
+                    <form action="#">
+                        <table id="cart_main" class="cart-main" width="100%">
+                            <tbody>
+                                <tr class="ui-carttable-placeholder"><td></td></tr>
+                                <tr>
+                                  <td>
+                                    <div class="ui-cart-tips">
+                                      香港特快直送商品订单满￥288免运费；订单满￥144减运费￥45；未满￥144运费￥90    </div>
+                                  </td>
+                                </tr> 
+                                <tr>
+                                    <td>
+                                        <table id="cartBCDepot" class="ui-cart-table">
+                                            <thead>
+                                                <tr>
+                                                  <th class="ui-carttable-th1">
+                                                    <input id="BCDepotCheckbox" name="is_bonded" type="checkbox" value="bc" class="">
+                                                    <label for="BCDepotCheckbox">香港特快直送</label>
+                                                  </th>
+                                                  <th class="ui-carttable-th2">商品名称</th>
+                                                  <th>单价</th>
+                                                  <th>数量</th>
+                                                  <th>小计</th>
+                                                  <th>&emsp;</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr class="J_cart-product">
+                                                  <td class="ui-carttable-td1">
+                                                    <div class="ui-cart-pcheckbox">
+                                                      <input class="J-select-goods-hkbc " type="checkbox" checked="" name="selectcb">
+                                                    </div>
+                                                    <div class="ui-cart-pimg">
+                                                      <a href="javascript:void(0);" target="_blank">
+                                                        <img src="../images/logo02.png" alt="素贝儿 樱花净白透亮精华 ">
+                                                      </a>
+                                                    </div>
+                                                  </td>
+                                                  <td class="ui-carttable-td2">
+                                                    <div>
+                                                      <a href="javascript:void(0);" target="_blank">
+                                                        素贝儿 樱花净白透亮精华               </a>
+                                                    </div>
+                                                                <!-- 组合促销 -->
+                                                    <div class="p_special none"><i class="tipyelbox"></i></div>
+                                                    <!-- 商品促销 -->
+                                                    <ul class="J-cartTabelPromotion ui-carttable-promotions">
+                                                                  </ul>
+                                                    <!-- 商品赠品 -->
+                                                    <div class="J-cartTableGoodsGifts">
+                                                                  </div>
+                                                  </td>
+                                                  <td class="J-price">￥111.0</td>
+                                                  <td>
+                                                    <div class="p-quantity">
+                                                      <a href="javascript:void(0);" class="btn-decrease">-</a>
+                                                      <input type="text"value="1">
+                                                      <a href="javascript:void(0);" class="btn-increase">+</a>
+                                                    </div>
+                                                              </td>
+                                                  <td class="J-subtotal ui-color-pink">
+                                                  ￥111.0          </td>
+                                                  <td>
+                                                    <a href="javascript:void(0);" class="J-btnDelete ui-carttable-action">删除</a>
+                                                    <div class="bonded_prompt">商品已包税</div>
+                                                  </td>
+                                                </tr>
+                                            </tbody>
+                                            
+                                        </table>
+                                        
+                                    </td>
+                                </tr>   
+                            </tbody>
+
+                                <tbody id="J_cartPromotionCont" >
+                                    <tr class="ui-carttable-placeholder"><td></td></tr>
+                                    <tr>
+                                        <td>
+                                            <table class="ui-cart-table ui-cart-promotiontable">
+                                                <thead>
+                                                    <th class="ui-carttable-th1">已享受优惠</th>
+                                                    <th class="ui-carttable-th2">优惠项目</th>
+                                                    <th>&emsp;</th>
+                                                    <th>&emsp;</th>
+                                                    <th>&emsp;</th>
+                                                    <th>&emsp;</th>
+                                                </thead>
+                                                <tbody id="J_cartPromotion">
+                                                  <tr>
+                                                      <td class="ui-carttable-td1">&emsp;</td>
+                                                      <td class="ui-carttable-td2">
+                                                        <i class="tipyel" style="margin-right: 6px;background-color:#71D2C3;color:#FFFFFF;">订单促销</i>香港特快直送商品满￥144减运费￥45          </td>
+                                                      <td>&emsp;</td>
+                                                      <td>&emsp;</td>
+                                                      <td>&emsp;</td>
+                                                      <td>&emsp;</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                <tfoot id="J_cartPriceCont" class="ui-cart-foot">
+                                    <tr>
+                                      <td>
+                                        <table class="ui-cart-table" id="J_orderPrice">
+                                          <tbody>
+                                            <tr class="ui-carttable-placeholder"><td></td></tr>
+                                            <tr>
+                                              <td class="ui-cartfoot-check">
+                                                <div class="fl">
+                                                  <a href="../html/list.html" class="ui-cartfoot-link">继续购物</a>
+                                                  <a href="javascript:;" id="J_actionClean" class="ui-cartfoot-link ml20">清空购物车</a>
+                                                </div>
+                                                <div class="fr">
+                                                  <span class="ui-cartfoot-label">共 <span class="red items-quantity">2</span> 件商品</span>
+                                                  <span class="ui-cartfoot-label">商品应付金额
+                                                        <strong class="red f18 promotion-subtotal ui-cart-total">¥266.0</strong>
+                                                  </span>
+                                                  <button type="submit" href="jiesuan.html" class="btn btn-import btn-huge action-settle" rel="_request"><span><span>结账</span></span></button>          
+                                                </div>
+                                              </td>
+                                            </tr>
+                                            <tr class="ui-carttable-placeholder"><td></td></tr>
+                                          </tbody>
+                                        </table>
+                                      </td>
+                                    </tr>
+                                </tfoot>
+                        </table>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-rs"></div>
+    </body>
+</html>

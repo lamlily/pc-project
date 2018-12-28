@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>详情页</title>
+        <link rel="stylesheet" type="text/css" href="../css/styles.min.css" />
+        <link rel="stylesheet" type="text/css" href="../css/goods.css" />
+        <link rel="stylesheet" type="text/css" href="../css/jquery.exzoom.css" />
+        <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.exzoom.js"></script>
+        <script type="text/javascript" src="../js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="../js/goods.js"></script>
+    </head>
+    <body class="productpage min-page">
+         <div id="pageHeader"></div>
+         <div class="paGe clearfix">
+             <div class="product_container clearfix">
+                 <div class="product-side fl clearfix">
+                     <i class="sidecount itips"></i>
+                     <div class="exzoom clearfix" id="exzoom"> 
+                              <!--大图区域-->
+                          <div class="exzoom_img_box">
+                            <ul class='exzoom_img_ul'>
+                                 <!--  <li><img src="../images/logo.png"/></li>
+                                  <li><img src="../images/logo.png"/></li>
+                                  <li><img src="../images/logo.png"/></li>
+                                  <li><img src="../images/logo.png"/></li>
+                                  <li><img src="../images/logo.png"/></li> -->
+                            </ul>
+                          </div>
+                              <!--缩略图导航-->
+                              <div class="exzoom_nav"></div>
+                              <!--控制按钮-->
+                              <p class="exzoom_btn"> <a href="javascript:void(0);" class="exzoom_prev_btn"> &lt; </a> <a href="javascript:void(0);" class="exzoom_next_btn"> &gt; </a> </p>
+                     </div>
+                 </div> 
+                 <div class="product-main fr">
+                     <div class="product-titles">
+                         <i class="icon iconfont">&ldquo;</i>
+                         在美妆界号称“原料桶”，价格亲民，展现高效的护肤概念！轻质配方含有5%的高浓度咖啡因，辅以来自绿茶的 EGCG，可减少眼部轮廓色素沉积和浮肿现象！
+                     </div>
+                     <div class="product-line">
+                         <p class="product-titles2">
+                             <i class="icon66">香港直送</i> 
+                             <a href="javascript:void(0);">THE ORDINARY </a>
+                         </p>
+                         <p class="product-titles2">
+                             CAFFEINE SOLUTION 5% + EGCG眼部配方&nbsp;(30毫升)&nbsp;
+                         </p>
+                         <div class="detailwords">
+                               <a href="javascript:void(0);">去黑眼圈</a>
+                                <a href="javascript:void(0);">去眼袋</a>
+                                <a href="javascript:void(0);">去浮肿</a>
+                                <a href="javascript:void(0);">抗皱/去皱</a>
+                         </div>
+                         <div class="ruleWrap">
+                             <ul class="dispatching" id="J-dispatching">
+                                <li><div class="one">配送</div><div class="two">香港发货，香港直送时间为7-15个工作天</div></li>
+                                <li>
+                                    <div class="one">运费</div>
+                                    <div class="two pro-rule"><span id="J-rule1" class="pulldown js-rule">满￥288免运费</span>
+                                        <p class="hid">香港直送商品订单满￥288免运费，订单满￥144减运费￥45；未满￥144运费￥90</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="one">税费</div>
+                                    <div class="two pro-rule">
+                                            <span class="pulldown js-rule">被税客户凭税单申请返券补偿</span>
+                                            <p class="hid">如本商品在运输过程中产生任何税费，莎莎网会在5个工作日内以同等价值现金券返回您的账户里</p>
+                                    </div>
+                                </li>
+                                <li><div class="one">服务</div><div class="two service"><span class="icon67">30日退换保证</span><span class="icon67">正品保障</span><span class="icon67">价格承诺</span></div></li>    
+                            </ul>
+                         </div>
+                     </div>
+                     <div class="product-information">
+                         <div class="product-buy">
+                             <div class="product-action">
+                                 <ul>
+                                     <li class="product-buy-quantity">
+                                         <label class="item-label" for="for_quantity_input">数量：</label>
+                                         <span class="p-quantity">
+                                             <a href="javascript:void(0);" class="btn-decrease">-</a>
+                                             <input type="text" name="goods[num]" class="action-quantity-input" value="1" min="1" max="36" limit="36" cartnum="0">
+                                             <a href="javascript:void(0);" class="btn-increase">+</a>
+                                         </span>
+                                     </li>
+                                     <div class="product-concerns">
+                                        <ul>
+                                          <li class="item">
+                                            <span class="detail">
+                                                特卖价<b class="price"><ins class="action-price">￥89.0</ins></b>
+                                                    <span class="old-price">
+                                                        <del>市场价</del>
+                                                        <i class="grey"><del class="action-mktprice">￥128.0</del></i>
+                                                    </span>
+                                            </span>
+                                          </li>
+                                        </ul>
+                                    </div>
+                                    <li class="product-buy-action" style="margin:20px auto">
+                                        <span id="seckill_btn">
+                                            <span id="J_addtocart_nologin" style="">
+                                                <a href="javascript:void(0);" class="btn-major ">
+                                                        立即抢购
+                                                </a>
+                                            </span>
+                                        </span>
+                                    </li>
+                                 </ul>
+                             </div>
+                         </div>
+                     </div>
+                     <div class="share fr">
+                          <span class="fl">分享到</span>
+                          <ul class="share-mini">
+                                <li><a href="javascript:void(0);" target="_blank" class="douban"><i class="icon"></i></a></li>
+                                <li><a href="javascript:void(0);" target="_blank" class="kaixin001"><i class="icon"></i></a></li>
+                                <li><a href="javascript:void(0);" target="_blank" class="qzone"><i class="icon"></i></a> </li>
+                                <li><a href="javascript:void(0);" target="_blank" class="renren"><i class="icon"></i></a></li>
+                                <li><a href="javascript:void(0);" target="_blank" class="sina"><i class="icon"></i></a></li>
+                                <li><a href="javascript:void(0);" target="_blank" class="tencent"><i class="icon"></i></a></li>
+                           </ul>
+                      </div>
+                 </div>  
+             </div>
+         </div>
+         <div class="footer-rs"></div>
+    </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/login.css" />
+        <link rel="stylesheet" type="text/css" href="../css/styles.min.css"/>
+        <script type="text/javascript" src="../js/jquery-3.2.1.js"></script>
+        <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="../js/verify.min.js"></script>
+        <script type="text/javascript" src="../js/jquery.cookie.js"></script>
+        <script type="text/javascript" src="../js/login.js"></script>
+    </head>
+    <body>
+        <div id="pageHeader"></div>
+
+        <div class="login-page"><a href="#"><img src="../images/logo.png" class="logo"/></a></div>
+        <div class="sing-page ">
+            <div class="sing-page-left"><img src="../images/sing-page.png" alt="" /></div>
+            <div class="sing-page-riget">
+                <div class="sing-title">
+                    <div class="sing-title-txt">用户登录<span class="fr">还没有账号? <a href="#" id="zuce">立即注册</a></span></div>      
+                </div>
+                <div class="sing-box">
+                    <form action="" method="post">
+                      <ul>
+                        <li class="form-item">
+                          <label for="" class="form-label">用户名：</label>
+                          <span class="form-act">
+                            <input class="x-input icon-yhm action-account-check " type="text" id="Yuname" name="uname"  value="" placeholder="用户名/管理员账号"  ></span>
+                        </li>
+                        <li class="form-item">
+                          <label for="" class="form-label">密码：</label>
+                          <span class="form-act">
+                            <input class="x-input icon-mm" type="password" name="password" id="Ypassword" maxlength="16"  placeholder="填写密码" ></span>
+                        </li>
+                        <li class="form-item action-verifycode ">
+                         <!--  <label for="" class="form-label">验证码：</label>
+                          <span class="form-act"> -->
+                            <!-- <input class="x-input verify-input img_input" type="text" name="verifycode" placeholder="填写图片验证码"  maxlength="4" > -->
+                             <!-- <span id="mpanel2" class="auto-change-verify-handle "></span>  -->
+                            <!-- <a href="#" class=" auto-change-verify-handle">看不清?换一张</a></span> -->
+                        </li>
+                        <li class="form-item">
+                          <label for="" class="form-label"></label>
+                          <span class="form-act">
+                            <input type="hidden" name="is_remember"  class="x-check action-remember-account" checked="checked">
+                            <input type="checkbox" name="site_autologin" id="for_auto_signin" class="x-check action-auto-signin">
+                            <label for="for_auto_signin" class="form-sub-label">记住我</label>
+                            <a href="#" style="vertical-align: middle; color:#ed3f7e;">忘记密码？</a></span>
+                        </li>
+                        <li class="form-item-normal">
+                          <label for="" class="form-label"></label>
+                          <span class="form-act">
+                            <button type="submit" id="check-btn" class="btn-big" href="javascript:void;">
+                              <span>
+                                <span>登录</span></span>
+                            </button>
+                          </span>
+                        </li>
+                      </ul>
+                      <input type="hidden" name="log_token" id="J-token">
+                    </form>
+                    <div class="other-login">
+                        <p>第三方账号登录</p>
+                        <ul>
+                            <li><a href="#"><img src="../images/login01.jpg" alt="" />QQ登录</a></li>
+                            <li><a href="#"><img src="../images/login02.jpg" alt="" />微博登录</a></li>
+                            <li><a href="#"><img src="../images/login03.jpg" alt="" />支付宝登录</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

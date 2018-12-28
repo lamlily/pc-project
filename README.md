@@ -1,2 +1,1 @@
-# pc-project
-personal pc project
+# one

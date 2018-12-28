@@ -1,0 +1,159 @@
+.login-page {
+  width: 1090px;
+  margin: 0 auto;
+}
+
+.login-page img {
+  margin-top: 25px;
+}
+
+.sing-page {
+  position: relative;
+  width: 1090px;
+  margin: 20px auto;
+}
+
+.sing-page .sing-page-left {
+  position: absolute;
+  top: 30px;
+}
+
+.sing-page .sing-page-riget {
+  float: right;
+  width: 350px;
+  padding: 35px;
+  margin-right: 68px;
+  box-shadow: 0 0 5px #e1e1e1, 0 0 15px #e1e1e1;
+}
+
+.sing-page .sing-page-riget .sing-title {
+  color: #5a5d6c;
+  font-weight: normal;
+  font-size: 21px;
+}
+
+.sing-page .sing-page-riget .sing-title span a {
+  font-size: 12px;
+  color: #ec3e7d;
+}
+
+.sing-page .sing-page-riget .sing-box {
+  margin-top: 40px;
+}
+
+.sing-page .sing-page-riget .sing-box form input {
+  border-width: 1px;
+  border-color: #cccccc;
+  padding: 1px;
+}
+
+.sing-page .sing-page-riget .sing-box form input:hover, .sing-page .sing-page-riget .sing-box form .foucs {
+  border-color: #f9a0b4;
+  box-shadow: 0 0 5px #fbb4b0;
+}
+
+.sing-page .sing-page-riget .sing-box form input[type=text], .sing-page .sing-page-riget .sing-box form input[type=password] {
+  border-style: solid;
+}
+
+.sing-page .sing-page-riget .sing-box form .form-item {
+  margin-top: 10px;
+  position: relative;
+  height: 51px;
+  font-size: 13px;
+}
+
+.sing-page .sing-page-riget .sing-box form .form-item .auto-change-verify-handle {
+  cursor: pointer;
+  width: 80px;
+  height: 36px;
+}
+
+.sing-page .sing-page-riget .sing-box form .form-item div {
+  display: inline-block;
+}
+
+.sing-page .sing-page-riget .sing-box form .form-item .verify-code {
+  width: 80px;
+  height: 36px;
+  position: absolute;
+  top: 5px;
+  left: 145px;
+}
+
+.sing-page .sing-page-riget .sing-box form .form-item .varify-input-code, .sing-page .sing-page-riget .sing-box form .form-item .verify-input-area {
+  width: 120px;
+  height: 26px;
+  line-height: 26px;
+  padding: 4px;
+}
+
+.sing-page .sing-page-riget .sing-box form .form-item .verify-change-area {
+  width: 80px;
+  height: 36px;
+  line-height: 36px;
+  position: absolute;
+  top: 5px;
+  right: 40px;
+}
+
+.sing-page .sing-page-riget .sing-box form .form-label {
+  display: none;
+}
+
+.sing-page .sing-page-riget .sing-box form .form-act {
+  display: block;
+  line-height: 2.5em;
+}
+
+.sing-page .sing-page-riget .sing-box form .form-act label {
+  margin-left: 5px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+.sing-page .sing-page-riget .sing-box form .x-input {
+  width: 340px;
+}
+
+.sing-page .sing-page-riget .sing-box form .icon-yhm {
+  background: url(../images/q.png) 6px -120px no-repeat;
+  text-indent: 24px;
+}
+
+.sing-page .sing-page-riget .sing-box form .icon-mm {
+  background: url(../images/q.png) 6px -160px no-repeat;
+  text-indent: 24px;
+}
+
+.sing-page .sing-page-riget .sing-box form .x-input {
+  height: 26px;
+  line-height: 26px;
+  padding: 4px;
+}
+
+.sing-page .sing-page-riget .sing-box form .verify-input {
+  width: 120px;
+}
+
+.sing-page .sing-page-riget .sing-box form .btn-big {
+  cursor: pointer;
+  border: 0 none;
+  display: block;
+  width: 100%;
+  background: #ec3e7d;
+  line-height: 40px;
+  color: #fff;
+  font-size: 16px;
+}
+
+.notice-inline .icon {
+  font-size: 14px;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.error .icon {
+  background: #db3f7e;
+  color: #fff;
+}

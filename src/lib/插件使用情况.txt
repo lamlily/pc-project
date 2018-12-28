@@ -1,0 +1,4 @@
+Full-screen-slide  轮播图插件
+jquery-cookie	JQcookie
+verify-master	验证码
+jquery.exzoom   放大镜插件

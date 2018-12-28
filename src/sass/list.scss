@@ -1,0 +1,121 @@
+.hide{
+    display: none !important;
+}
+.gallery-sortbar{
+    background-color: #fff;
+     font-size: 12px;
+     .gallery-sort {
+        float: left;
+         a {
+            cursor: pointer;
+            border-right: 1px solid #f1f1f1;
+            float: left;
+            position: relative;
+        }
+        .active {
+            color: #bf9b5f;
+        }
+        .gallery-sorttext {
+            padding-left: 25px;
+            border-right: 1px solid #f1f1f1;
+            padding-right: 25px;
+            display: inline-block;
+            float: left;
+        }
+         em {
+            padding: 0 15px 0 20px;
+            display: inline-block;
+            line-height: 30px;
+        }
+         span.desc {
+            background: url(../images/arrs.gif) right -251px no-repeat;
+            width: 8px;
+            height: 8px;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+        span.asc {
+            background: url(../images/arrs.gif) right -207px no-repeat;
+            width: 8px;
+            height: 8px;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+} 
+.gallery-total-info {
+    height: 30px;
+    line-height: 30px;
+    margin-right: 15px;
+    color: #818284;
+    margin-left: 25px;
+}
+.gallery-sortbar .gallery-sort a, .gallery-sortbar .gallery-sort span {
+    display: inline-block;
+    color: #666666;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+}
+.btn span {
+    background-color: #ee407f;
+    display: inline-block;
+    height: 100%;
+    line-height: 35px;
+    font-size: inherit;
+    *cursor: pointer;
+    padding-left: 30px;
+    color: #fff;
+}
+.price {
+    color: #ec3e7d;
+}
+.btn span span {
+    border: 0 none;
+    background-color: transparent;
+    padding-right: 30px;
+    padding-left: 0;
+    background: #ec3e7d;
+}
+.arrivalslist .btn-buy .btn-major span, .arrivalslist .btn-get .btn-major span {
+    padding: 2px 0px;
+    width: 224px;
+    text-align: center;
+}
+ a.btn-major, a.btn-caution {
+    color: white;
+}
+.pageview {
+    margin: 10px 0;
+    text-align: right;
+    line-height: 20px;
+    font-size: 12px;
+    clear: both;
+    padding: 20px 0;
+   .prev, .next {
+        padding: 0 2px;
+    }
+    .iconfont {
+        font-size: 12px;
+    }
+    .active {
+        border-color: #ec3e7d;
+        color: #ec3e7d;
+    }
+    .flip {
+        border: 1px solid #dddddd;
+        color: #666666;
+        display: inline-block;
+        vertical-align: middle;
+        margin-left: 5px;
+        width: auto;
+        letter-spacing: 0;
+        border-radius: 14px;
+        padding: 0 7px;
+    }
+}
+.footer-rs{
+    background: #fff;
+}
